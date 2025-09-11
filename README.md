@@ -52,11 +52,7 @@
 
 ---
 
-## 🚀 Projects:
-- **[Budget Tracker](#)** – Full-stack web app using HTML, CSS, JavaScript, Node.js, Python, Chart.js (🏆 Won 1st Prize @ IEEE Student Project Expo)  
-- **[Spam Detection using ML for Cybersecurity](#)** – Python, Scikit-learn, NLTK, Streamlit; 94.87% accuracy in classifying spam/ham  
-- **[Organic Kitchen Gardening Website](#)** – Multi-page responsive site with interactive UI for organic farming guidance  
-- **[Formula One Race Winning Predictor](#)** – Built ML model in R (Random Forest) with probability-based predictions  
+
 
 ---
 
