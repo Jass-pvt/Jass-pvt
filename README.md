@@ -78,7 +78,7 @@
   <a href="https://leetcode.com/" target="_blank">
     <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=black&link=https://leetcode.com/"/>
   </a>
-  <a href="https://www.hackerrank.com/" target="_blank">
+  <a href="https://www.hackerrank.com/profile/rathoresjaswanth" target="_blank">
     <img src="https://img.shields.io/badge/-HackerRank-00EA64?style=flat-square&logo=HackerRank&logoColor=white&link=https://www.hackerrank.com/"/>
   </a>
 
