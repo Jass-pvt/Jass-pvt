@@ -73,7 +73,7 @@
 
 ## 🌐 Connect with Me  
 
-<p align="center">
+
   <a href="https://www.linkedin.com/" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/"/>
   </a>
@@ -83,7 +83,6 @@
   <a href="https://www.hackerrank.com/" target="_blank">
     <img src="https://img.shields.io/badge/-HackerRank-00EA64?style=flat-square&logo=HackerRank&logoColor=white&link=https://www.hackerrank.com/"/>
   </a>
-</p>
 
 
 
