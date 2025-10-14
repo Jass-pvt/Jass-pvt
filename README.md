@@ -1,5 +1,5 @@
 # Hi 👋, I'm Jaswanth Rathore. S  
-### 🚀 Cybersecurity Enthusiast | Cloud Learner | Full Stack Developer  
+### 🚀 Cybersecurity Enthusiast | Cloud Learner | Frontend Developer  
 
 ---
 
