@@ -34,7 +34,7 @@
 
 ---
 
-<div align="center">
+
 
 # 📊 GitHub Stats
 
@@ -63,6 +63,36 @@
 ![](https://komarev.com/ghpvc/?username=Jass-pvt&label=Profile%20views&color=00ffff&style=flat)
 
 </div>
+
+
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=Jass-pvt&theme=neon&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jass-pvt&theme=neon&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages"/>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jass-pvt&theme=neon&hide_border=false" alt="GitHub Streak"/>
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/Jass-pvt/Jass-pvt/main/language-charts.png" width="350" alt="Top Languages by Repo and Commit"/>
+    </td>
+  </tr>
+</table>
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jass-pvt&theme=neon)<br/>
+![](https://komarev.com/ghpvc/?username=Jass-pvt&label=Profile%20views&color=00ffff&style=flat)
+
+</div>
+
 
 
 
