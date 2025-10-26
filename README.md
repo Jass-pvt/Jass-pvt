@@ -33,6 +33,18 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)
 
 ---
+<div align="center">
+
+# 📊 GitHub Stats
+
+![](https://github-readme-stats.vercel.app/api?username=Jass-pvt&theme=neon&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=Jass-pvt&theme=neon&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Jass-pvt&theme=neon&hide_border=false&include_all_commits=true&count_private=true&layout=compact)<br/>
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jass-pvt&theme=neon)<br/>
+![](https://komarev.com/ghpvc/?username=Jass-pvt&label=Profile%20views&color=00ffff&style=flat)
+
+</div>
+
 
 # 🛠️ Tech Stack & Tools:
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-102230?style=flat-square&logo=tensorflow&logoColor=orange)
