@@ -49,7 +49,16 @@
   </tr>
 </table>
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=Jass-pvt&theme=neon&hide_border=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=Jass-pvt&theme=neon&hide_border=false)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://quickchart.io/chart?c={type:'doughnut',data:{labels:['Python','R','JavaScript'],datasets:[{data:[40,10,30],backgroundColor:['#3572A5','#198CE7','#F7DF1E']}]},options:{plugins:{legend:{labels:{color:'white',font:{size:14}}}},backgroundColor:'transparent'}}" width="200" alt="Language Usage Pie Chart"/>
+    </td>
+  </tr>
+</table>
+
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jass-pvt&theme=neon)<br/>
 ![](https://komarev.com/ghpvc/?username=Jass-pvt&label=Profile%20views&color=00ffff&style=flat)
 
