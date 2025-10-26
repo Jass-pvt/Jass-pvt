@@ -33,38 +33,9 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)
 
 ---
-
-
+<div align="center">
 
 # 📊 GitHub Stats
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=Jass-pvt&theme=neon&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jass-pvt&theme=neon&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages"/>
-    </td>
-  </tr>
-</table>
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=Jass-pvt&theme=neon&hide_border=false)
-
-<table>
-  <tr>
-    <td>
-      <img src="https://quickchart.io/chart?c={type:'doughnut',data:{labels:['Python','R','JavaScript'],datasets:[{data:[40,10,30],backgroundColor:['#3572A5','#198CE7','#F7DF1E']}]},options:{plugins:{legend:{labels:{color:'white',font:{size:14}}}},backgroundColor:'transparent'}}" width="200" alt="Language Usage Pie Chart"/>
-    </td>
-  </tr>
-</table>
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jass-pvt&theme=neon)<br/>
-![](https://komarev.com/ghpvc/?username=Jass-pvt&label=Profile%20views&color=00ffff&style=flat)
-
-</div>
-
-
 
 <table>
   <tr>
@@ -83,7 +54,10 @@
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jass-pvt&theme=neon&hide_border=false" alt="GitHub Streak"/>
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/Jass-pvt/Jass-pvt/main/language-charts.png" width="350" alt="Top Languages by Repo and Commit"/>
+      <img src="https://quickchart.io/chart?c={type:'doughnut',data:{labels:['HTML','JavaScript','Python','Batchfile','Java'],datasets:[{data:[30,25,20,15,10],backgroundColor:['#E34C26','#F7DF1E','#3572A5','#00B0F0','#b07219']}]},options:{plugins:{title:{display:true,text:'Top Languages by Repo',color:'#00FFFF',font:{size:16}},legend:{labels:{color:'#FFFFFF'}}},backgroundColor:'transparent'}}" width="250" alt="Top Languages by Repo"/>
+    </td>
+    <td>
+      <img src="https://quickchart.io/chart?c={type:'doughnut',data:{labels:['C++','CSS','JavaScript'],datasets:[{data:[50,30,20],backgroundColor:['#f34b7d','#563d7c','#f7df1e']}]},options:{plugins:{title:{display:true,text:'Top Languages by Commit',color:'#00FFFF',font:{size:16}},legend:{labels:{color:'#FFFFFF'}}},backgroundColor:'transparent'}}" width="250" alt="Top Languages by Commit"/>
     </td>
   </tr>
 </table>
@@ -92,8 +66,6 @@
 ![](https://komarev.com/ghpvc/?username=Jass-pvt&label=Profile%20views&color=00ffff&style=flat)
 
 </div>
-
-
 
 
 # 🛠️ Tech Stack & Tools:
