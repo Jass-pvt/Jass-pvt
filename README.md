@@ -53,13 +53,8 @@
     <td>
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jass-pvt&theme=neon&hide_border=false" alt="GitHub Streak"/>
     </td>
-    <td>
-      <img src="https://quickchart.io/chart?c=%7Btype%3A'doughnut'%2Cdata%3A%7Blabels%3A%5B'HTML'%2C'JavaScript'%2C'Python'%2C'Batchfile'%2C'Java'%5D%2Cdatasets%3A%5B%7Bdata%3A%5B30%2C25%2C20%2C15%2C10%5D%2CbackgroundColor%3A%5B'%23E34C26'%2C'%23F7DF1E'%2C'%233572A5'%2C'%2300B0F0'%2C'%23b07219'%5D%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Btitle%3A%7Bdisplay%3Atrue%2Ctext%3A'Top%20Languages%20by%20Repo'%2Ccolor%3A'%2300FFFF'%2Cfont%3A%7Bsize%3A16%7D%7D%2Clegend%3A%7Blabels%3A%7Bcolor%3A'%23FFFFFF'%7D%7D%7D%2CbackgroundColor%3A'transparent'%7D%7D" width="250" alt="Top Languages by Repo"/>
-    </td>
-    <td>
-      <img src="https://quickchart.io/chart?c=%7Btype%3A'doughnut'%2Cdata%3A%7Blabels%3A%5B'C%2B%2B'%2C'CSS'%2C'JavaScript'%5D%2Cdatasets%3A%5B%7Bdata%3A%5B50%2C30%2C20%5D%2CbackgroundColor%3A%5B'%23f34b7d'%2C'%23563d7c'%2C'%23f7df1e'%5D%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Btitle%3A%7Bdisplay%3Atrue%2Ctext%3A'Top%20Languages%20by%20Commit'%2Ccolor%3A'%2300FFFF'%2Cfont%3A%7Bsize%3A16%7D%7D%2Clegend%3A%7Blabels%3A%7Bcolor%3A'%23FFFFFF'%7D%7D%7D%2CbackgroundColor%3A'transparent'%7D%7D" width="250" alt="Top Languages by Commit"/>
-    </td>
-  </tr>
+    
+    
 </table>
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jass-pvt&theme=neon)<br/>
