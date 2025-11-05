@@ -12,7 +12,7 @@
 - 🌱 Exploring **Cybersecurity, Cloud, and Blockchain**  
 - 💡 Passionate about **Machine Learning, Secure Applications, and Web Development**  
 - 🏆 **1st Prize** at IEEE Student Project Expo & Coding Competition  
-- 📫 Reach me at: **your-email@example.com**  
+- 📫 Reach me at: **rathoresjaswanth@gmail.com**  
 - ⚡ Fun fact: **I love solving security challenges & exploring new tech**  
 
 </td>
