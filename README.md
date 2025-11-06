@@ -17,7 +17,7 @@
 
 </td>       
 <td width="44%">
-  <img src="https://gifdb.com/images/file/animated-programmer-guy-coding-790a0bs8e8thpisg.gif" alt="Coding" width="300"/>
+  <img src="https://img.freepik.com/premium-photo/hacker-girl-working-his-computer-with-multiple-monitors-screen-anime-pixel-art-style-geek-nerd_1070346-316.jpg" alt="Coding" width="300"/>
 </td>
 </tr>
 </table>
