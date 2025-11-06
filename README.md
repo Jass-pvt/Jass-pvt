@@ -5,7 +5,7 @@
       
 <table> 
 <tr> 
-<td width="60%">
+<td width="66%">
 
 ## 🧑‍💻 About Me:
 - 🎓 I’m currently pursuing **B.E in Computer Science and Engineering**  
@@ -16,7 +16,7 @@
 - ⚡ Fun fact: **I love solving security challenges & exploring new tech**  
 
 </td>
-<td width="40%">
+<td width="44%">
   <img src="https://gifdb.com/images/file/animated-programmer-guy-coding-790a0bs8e8thpisg.gif" alt="Coding" width="300"/>
 </td>
 </tr>
