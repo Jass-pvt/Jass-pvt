@@ -15,7 +15,7 @@
 - 📫 Reach me at: **rathoresjaswanth@gmail.com**  
 - ⚡ Fun fact: **I love solving security challenges & exploring new tech**  
 
-</td>
+</td>       
 <td width="44%">
   <img src="https://gifdb.com/images/file/animated-programmer-guy-coding-790a0bs8e8thpisg.gif" alt="Coding" width="300"/>
 </td>
