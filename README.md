@@ -5,7 +5,7 @@
       
 <table> 
 <tr> 
-<td width="66%">
+<td width="56%">
 
 ## 🧑‍💻 About Me:
 - 🎓 I’m currently pursuing **B.E in Computer Science and Engineering**  
