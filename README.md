@@ -4,7 +4,7 @@
 ---
       
 <table> 
-<tr> 
+<tr>       
 <td width="56%">
 
 ## 🧑‍💻 About Me:     
