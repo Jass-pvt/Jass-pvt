@@ -6,7 +6,7 @@
 <table> 
 <tr>       
 <td width="56%">
-
+       
 ## 🧑‍💻 About Me:     
 - 🎓 I’m currently pursuing **B.E in Computer Science and Engineering**  
 - 🌱 Exploring **Cybersecurity, Cloud, and Blockchain**  
