@@ -74,20 +74,24 @@
 ## 🌐 Connect with Me  
 <p align="left">
 
+  <!-- LinkedIn -->
   <a href="https://www.linkedin.com/in/jaswanthrathore/">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
+    <img src="https://img.icons8.com/ios-filled/50/0A66C2/linkedin.png" width="40" />
   </a>
 
+  <!-- LeetCode -->
   <a href="https://leetcode.com/u/JaswanthRathore/">
-    <img src="https://skillicons.dev/icons?i=leetcode" />
+    <img src="https://img.icons8.com/external-tal-revivo-filled-tal-revivo/50/FFA116/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-filled-tal-revivo.png" width="40" />
   </a>
 
+  <!-- HackerRank -->
   <a href="https://www.hackerrank.com/profile/rathoresjaswanth">
-    <img src="https://skillicons.dev/icons?i=hackerrank" />
+    <img src="https://img.icons8.com/windows/50/00C853/hackerrank.png" width="40" />
   </a>
 
+  <!-- Google Skillshop -->
   <a href="https://www.skills.google/public_profiles/def4bf30-fead-4bf0-81b4-d1c68bcbb7bc">
-    <img src="https://skillicons.dev/icons?i=googlecloud" />
+   <img src="https://skillicons.dev/icons?i=googlecloud" width="40" />
   </a>
 
 </p>
