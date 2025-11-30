@@ -74,19 +74,12 @@
 ## 🌐 Connect with Me  
 
 
-  <a href="https://www.linkedin.com/in/jaswanthrathore/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/"/>
-  </a>
-  <a href="https://leetcode.com/u/JaswanthRathore/" target="_blank">
-    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=black&link=https://leetcode.com/"/>
-  </a>
-  <a href="https://www.hackerrank.com/profile/rathoresjaswanth" target="_blank">
-    <img src="https://img.shields.io/badge/-HackerRank-00EA64?style=flat-square&logo=HackerRank&logoColor=white&link=https://www.hackerrank.com/"/>
-  </a>
-  <a href="https://www.skills.google/public_profiles/def4bf30-fead-4bf0-81b4-d1c68bcbb7bc" target="_blank">
-   <img src="https://img.shields.io/badge/-Google_Skillshop-4285F4?style=flat-square&logo=Google&logoColor=white"/>
- </a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaswanthrathore/)
 
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/JaswanthRathore/)
 
-   
+[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/rathoresjaswanth)
+
+[![Google Skillshop](https://img.shields.io/badge/Google_Skillshop-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://www.skills.google/public_profiles/def4bf30-fead-4bf0-81b4-d1c68bcbb7bc)
+
 
