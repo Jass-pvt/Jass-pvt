@@ -91,9 +91,15 @@
 
   <!-- Google Skillshop -->
   <a href="https://www.skills.google/public_profiles/def4bf30-fead-4bf0-81b4-d1c68bcbb7bc">
-   <img src="https://skillicons.dev/icons?i=googlecloud" width="40" />
+    <img src="https://img.icons8.com/color/48/4285F4/google-logo.png" width="40" />
   </a>
 
+</p>
+
+
+  <a href="https://github.com/JaswanthRathore" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" height="40" style="filter: invert(1);"/>
+  </a>
 </p>
 
 
