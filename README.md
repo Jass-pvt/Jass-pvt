@@ -83,5 +83,9 @@
   <a href="https://www.hackerrank.com/profile/rathoresjaswanth" target="_blank">
     <img src="https://img.shields.io/badge/-HackerRank-00EA64?style=flat-square&logo=HackerRank&logoColor=white&link=https://www.hackerrank.com/"/>
   </a>
+  <a href="YOUR_GOOGLE_SKILLS_URL" target="_blank">
+  <img src="[https://img.shields.io/badge/-Google_Skillshop-4285F4?style=flat-square&logo=Google&logoColor=white](https://www.skills.google/public_profiles/def4bf30-fead-4bf0-81b4-d1c68bcbb7bc)"/>
+</a>
+
    
 
