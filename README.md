@@ -75,22 +75,23 @@
 <p align="left">
 
   <a href="https://www.linkedin.com/in/jaswanthrathore/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+    <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
 
   <a href="https://leetcode.com/u/JaswanthRathore/">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white" />
+    <img src="https://skillicons.dev/icons?i=leetcode" />
   </a>
 
   <a href="https://www.hackerrank.com/profile/rathoresjaswanth">
-    <img src="https://img.shields.io/badge/HackerRank-00C853?style=flat-square&logo=hackerrank&logoColor=white" />
+    <img src="https://skillicons.dev/icons?i=hackerrank" />
   </a>
 
   <a href="https://www.skills.google/public_profiles/def4bf30-fead-4bf0-81b4-d1c68bcbb7bc">
-    <img src="https://img.shields.io/badge/Google_Skillshop-4285F4?style=flat-square&logo=google&logoColor=white" />
+    <img src="https://skillicons.dev/icons?i=googlecloud" />
   </a>
 
 </p>
+
 
 
 
