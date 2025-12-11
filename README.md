@@ -20,7 +20,7 @@
   <img src="https://img.freepik.com/premium-photo/hacker-girl-working-his-computer-with-multiple-monitors-screen-anime-pixel-art-style-geek-nerd_1070346-316.jpg" alt="Coding" width="300"/>
 </td>
 </tr>
-</table>
+</table>  
 
       
 ---
