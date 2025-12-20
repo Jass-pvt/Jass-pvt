@@ -33,6 +33,31 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)
 
 ---
+## 📈 GitHub Stats
+
+## 📊 GitHub Stats
+
+<table align="center">
+<tr>
+<td align="center">
+
+### 📈 Stats
+<img src="https://github-readme-stats.vercel.app/api?username=Jass-pvt&show_icons=true&theme=tokyonight" />
+
+</td>
+<td align="center">
+
+### 🧠 Most Used Languages
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jass-pvt&theme=tokyonight&layout=compact" />
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Jass-pvt&label=Profile%20views&color=00ffff&style=flat" />
+</p>
+
 
 
 ## 🛠 Tech Stack
