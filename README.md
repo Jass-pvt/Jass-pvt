@@ -33,20 +33,40 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)
 
 ---
-## 📊 GitHub Stats
+
+## 📊 GitHub Stats & Activity
 
 <table align="center">
 <tr>
-<td align="center">
+<td align="center" width="50%">
 
-### 📈 Stats
+### 📈 Overall Stats
 <img src="https://github-readme-stats.vercel.app/api?username=Jass-pvt&show_icons=true&theme=tokyonight" />
 
 </td>
-<td align="center">
+<td align="center" width="50%">
+
+### 🔥 Contribution Graph
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jass-pvt&theme=tokyo-night&area=true&hide_border=true" />
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table align="center">
+<tr>
+<td align="center" width="50%">
 
 ### 🧠 Most Used Languages
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jass-pvt&theme=tokyonight&layout=compact" />
+
+</td>
+<td align="center" width="50%">
+
+### 📊 Profile Summary
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Jass-pvt&theme=tokyonight" />
 
 </td>
 </tr>
@@ -55,7 +75,6 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Jass-pvt&label=Profile%20views&color=00ffff&style=flat" />
 </p>
-
 
 
 ## 🛠 Tech Stack
