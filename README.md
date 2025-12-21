@@ -33,8 +33,6 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)
 
 ---
-## 📈 GitHub Stats
-
 ## 📊 GitHub Stats
 
 <table align="center">
