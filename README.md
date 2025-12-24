@@ -1,19 +1,23 @@
-# Hi 👋, I'm Jaswanth Rathore. S  
-### 🚀 Cybersecurity Enthusiast | Cloud Learner | Frontend Developer  
+Hi 👋, I'm Jaswanth Rathore .S
+
+Computer Science Undergraduate | Python Developer  
+ML (Intermediate) • Web Development • Cloud Fundamentals (GCP)
   
 ---
       
 <table>      
 <tr>       
 <td width="56%">
-         
-## 🧑‍💻 About Me:     
-- 🎓 I’m currently pursuing **B.E in Computer Science and Engineering**  
-- 🌱 Exploring **Cybersecurity, Cloud, and Blockchain**  
-- 💡 Passionate about **Machine Learning, Secure Applications, and Web Development**  
-- 🏆 **1st Prize** at IEEE Student Project Expo & Coding Competition  
-- 📫 Reach me at: **rathoresjaswanth@gmail.com**  
-- ⚡ Fun fact: **I love solving security challenges & exploring new tech**  
+             
+### 👨‍💻 About Me
+- 🎓 B.E. Computer Science & Engineering
+- 🐍 Strong in Python; working with R and JavaScript for data and web applications
+- 🤖 Intermediate knowledge of Machine Learning (model building, evaluation, preprocessing)
+- 🌐 Frontend experience using HTML, CSS, and JavaScript
+- ☁️ Cloud fundamentals through Google Arcade Program (GCP)
+- 🚀 Actively building real-world projects and improving DSA
+- 📜 Google Cloud Arcade Program participant – hands-on exposure to GCP services.
+
 
 </td>       
 <td width="44%">
