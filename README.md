@@ -11,7 +11,7 @@ ML (Intermediate) • Web Development • Cloud Fundamentals (AWS & GCP)
              
 ### 👨‍💻 About Me
 - 🎓 B.E. Computer Science & Engineering
-- 🐍 Strong in Python; working with R and JavaScript for data and web applications
+- 🐍 Strong in Python, with experience in R and JavaScript for data and web applications
 - 🤖 Intermediate knowledge of Machine Learning (model building, evaluation, preprocessing)
 - 🌐 Frontend experience using HTML, CSS, and JavaScript
 - ☁️ Cloud fundamentals with AWS (Cloud Practitioner Certified) and Google Cloud (Arcade Program)
