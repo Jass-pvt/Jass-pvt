@@ -15,7 +15,7 @@ ML (Intermediate) • Web Development • Cloud Fundamentals (AWS & GCP)
 - 🤖 Intermediate knowledge of Machine Learning (model building, evaluation, preprocessing)
 - 🌐 Frontend experience using HTML, CSS, and JavaScript
 - ☁️ Cloud fundamentals with AWS (Cloud Practitioner Certified) and Google Cloud (Arcade Program)
-- 🚀 Actively building real-world projects and improving DSA
+- 🚀 Actively building real-world projects and improving data structures & algorithms (DSA)
 - 📜 Google Cloud Arcade Program participant – hands-on exposure to GCP services.
 
 
