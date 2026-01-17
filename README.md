@@ -5,7 +5,7 @@ ML (Intermediate) • Web Development • Cloud Fundamentals (AWS & GCP)
   
 ---
       
-<table>      
+<table>       
 <tr>       
 <td width="56%">
              
