@@ -4,7 +4,7 @@ Computer Science Undergraduate | Python Developer
 ML (Intermediate) • Web Development • Cloud Fundamentals (AWS & GCP)
   
 ---
-      
+       
 <table>       
 <tr>       
 <td width="56%">
