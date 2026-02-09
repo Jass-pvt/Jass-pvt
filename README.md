@@ -56,7 +56,7 @@ ML (Intermediate) • Web Development • Cloud Fundamentals (AWS & GCP) • Ope
 
 </td>
 </tr>
-</table>
+</table> 
 
 <br/>
 
