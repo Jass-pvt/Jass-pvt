@@ -1,6 +1,6 @@
 Hi 👋, I'm Jaswanth Rathore .S
 
-Computer Science Undergraduate | Python Developer  
+Computer Science Undergraduate | Python Developer   
 ML (Intermediate) • Web Development • Cloud Fundamentals (AWS & GCP) • Open Source Contributer 
 
   
