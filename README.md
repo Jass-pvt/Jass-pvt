@@ -7,7 +7,7 @@ ML (Intermediate) • Web Development • Cloud Fundamentals (AWS & GCP) • Ope
 ---
        
 <table>         
-<tr>       
+<tr>        
 <td width="56%">
              
 ### 👨‍💻 About Me
