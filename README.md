@@ -35,11 +35,10 @@
 class JaswanthRathore:
 
     def __init__(self):
-        self.name       = "Jaswanth Rathore .S"
-        self.role       = "CS Undergraduate @ Sathyabama University"
+        self.name       = "Jaswanth Rathore "
+        self.role       = "CS Undergraduate 
         self.location   = "Chennai, India 🇮🇳"
-        self.cgpa       = "7.48 / 10"
-        self.graduation = "2026 (Expected)"
+       
 
     @property
     def skills(self):
