@@ -128,7 +128,7 @@ class JaswanthRathore:
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=Jass-pvt&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=6C63FF&text_color=c9d1d9&rank_icon=github" height="160"/>
-&nbsp;&nbsp;
+&nbsp;&nbsp; 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jass-pvt&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&layout=compact&langs_count=8" height="160"/>
 
 </div>
