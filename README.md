@@ -36,7 +36,7 @@ class JaswanthRathore:
 
     def __init__(self):
         self.name       = "Jaswanth Rathore "
-        self.role       = "CS Undergraduate 
+        self.role       = "CS Undergraduate "
         self.location   = "Chennai, India 🇮🇳"
        
 
