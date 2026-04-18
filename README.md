@@ -237,13 +237,7 @@ class JaswanthRathore:
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Jass-pvt&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" width="95%"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Jass-pvt&show_icons=false&hide_border=true&bg_color=0d1117&title_color=6dd3fb&text_color=c9d1d9&include_all_commits=true&count_private=true&rank_icon=percentile&show=reviews,prs_merged" height="160"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Jass-pvt&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=6C63FF&text_color=c9d1d9&include_all_commits=true&count_private=true&rank_icon=percentile&show=reviews,prs_merged,prs_merged_percentage" height="160"/>
 
 </div>
 
