@@ -75,7 +75,7 @@ A Python tracker that snapshots my public Google Skills, LeetCode and GeeksforGe
 Listed from what the repositories above actually use.
 
 | Area | Technologies |
-| :-- | :-- |
+| :-- | :--  |
 | Languages | Python · TypeScript · JavaScript |
 | Front end | React · Vite · Tailwind CSS · Recharts · Framer Motion |
 | Back end | Node.js · Express · Sequelize · REST APIs · JWT authentication |
@@ -93,3 +93,4 @@ Listed from what the repositories above actually use.
 <div align="center">
   <img src="assets/jaswanth-footer.svg" alt="Jaswanth Rathore, Jass-pvt" width="100%">
 </div>
+     
