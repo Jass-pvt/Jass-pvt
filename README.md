@@ -1,340 +1,95 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:a855f7,100:6C63FF&height=200&section=header&text=Jaswanth%20Rathore%20.S&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Computer%20Science%20Graduate%20%7C%20Python%20Developer&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/> 
-  
-</div> 
- 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=Python+Developer+%F0%9F%90%8D;Machine+Learning+Enthusiast+%F0%9F%A4%96;Cybersecurity+Explorer+%F0%9F%9B%A1%EF%B8%8F;Cloud+%26+DevOps+Learner+%E2%98%81%EF%B8%8F;Open+Source+Contributor+%F0%9F%8C%8D;Full-Stack+Web+Developer+%F0%9F%8C%90)](https://git.io/typing-svg)
-
+  <img src="assets/jaswanth-hero.svg" alt="Jaswanth Rathore — Software Engineer, Full-Stack Developer, DevOps and Cloud Engineer, AI/ML Engineer" width="100%">
 </div>
 
-<br/>
+<br>
+
+## About
+
+I'm a software engineer with a B.E. in Computer Science and Engineering from Sathyabama Institute of Science and Technology, Chennai (2022–2026). I work across the stack: React and TypeScript front ends, Node.js and Python back ends, containerised services, and automated pipelines.
+
+The projects below share a theme: make decisions inspectable. TalentLens AI keeps every screening decision reviewable and deterministic, with an optional, bounded LLM layer. The learning-activity tracker records only what it can actually observe.
+
+<!--
+EDUCATION — CGPA intentionally omitted: no evidence in the repo. If you want it shown, add:
+B.E. Computer Science and Engineering · CGPA 7.63/10
+-->
+
+## Experience
+
+**Tiger Analytics** — DevOps Intern (Full-Stack Development)
+
+<!--
+VERIFY AND UNCOMMENT — dates and responsibilities were not in the supplied files. Add only what your resume supports:
+
+*Month YYYY – Month YYYY*
+- <responsibility 1, e.g. what you built or automated, with the real tools you used>
+- <responsibility 2>
+- <outcome, only if it is real and you can stand behind it>
+-->
+
+## Achievements
+
+- **Google Skills** — 44 badges on my [public profile](https://www.skills.google/public_profiles/def4bf30-fead-4bf0-81b4-d1c68bcbb7bc) (count observed 21 Oct 2026).
+- **LeetCode** — 111 accepted problems (37 easy · 56 medium · 18 hard), observed 21 Oct 2026. [Profile](https://leetcode.com/u/JaswanthRathore/)
+
+<!--
+CERTIFICATIONS / COMPETITIONS — none could be verified from the supplied files, so none are listed.
+Add each as: - **Exact certification name** — Issuer, Month YYYY ([credential](real-url))
+
+Previously listed in the old README without supporting evidence (add back only with proof such as merged PR links):
+- Elite Coders — Winter of Code 2025
+- Open Source Connect Global — 2025
+-->
+
+## Selected projects
+
+### TalentLens AI
+A command-line resume screener that reads a folder of PDF resumes, applies hard eligibility rules, scores the eligible candidates out of 100 with visible evidence, and writes a ranked JSON report plus a terminal summary.
+
+- **Deterministic core:** eligibility, scoring and ranking contain no model calls, so results are reproducible. A candidate qualifies only with Python and AI/agentic work shown inside a project or job entry, not just listed under skills.
+- **Evidence model:** each signal is graded from keyword-only to deep implementation, and the JSON carries the supporting text. An optional LLM pass is schema-validated, capped at ±6 points, and falls back to deterministic scoring on failure.
+- **Robustness:** SHA-256 duplicate detection, per-file failure isolation, and cached GitHub enrichment. The suite has 60 pytest tests.
+
+`Python` `pypdf` `requests` `pytest` · [Repository](https://github.com/Jass-pvt/talentlens-ai)
+
+### GATE 2027 Tracker
+A full-stack study tracker with a working core: JWT authentication, a dashboard (exam countdown, streaks, weekly and monthly hours, progress ring, study-hours chart), a daily study log, and a subjects module. The repository's own README marks the remaining modules as scaffolded, not built.
+
+- **API design:** Express and TypeScript with Sequelize on PostgreSQL, bcrypt password hashing, Helmet, rate-limited auth routes, and model-level validation (ranges, email format).
+- **Delivery:** backend Dockerfile (multi-stage) and a Docker Compose setup for the API and database, with Jest and Supertest tests.
+
+`React` `TypeScript` `Vite` `Tailwind CSS` `Node.js` `Express` `PostgreSQL` `Docker` · [Repository](https://github.com/Jass-pvt/gate2027-tracker)
+
+### Learning Activity Analytics
+A Python tracker that snapshots my public Google Skills, LeetCode and GeeksforGeeks profiles on a schedule and logs only activity it can actually observe.
+
+- **Honest data handling:** the first run is a baseline with no backfill, unavailable values stay `null` instead of being guessed, and the last good state is kept when a source fails.
+- **Automation:** a daily GitHub Actions workflow commits dated JSON snapshots, and a CI workflow runs 7 pytest tests.
+- **Limitation:** the collectors are best-effort and depend on third-party page structure and rate limits.
+
+`Python` `requests` `BeautifulSoup` `GitHub Actions` `pytest` · [Repository](https://github.com/Jass-pvt/learning-activity-analytics)
+
+## Skills
+
+Listed from what the repositories above actually use.
+
+| Area | Technologies |
+| :-- | :-- |
+| Languages | Python · TypeScript · JavaScript |
+| Front end | React · Vite · Tailwind CSS · Recharts · Framer Motion |
+| Back end | Node.js · Express · Sequelize · REST APIs · JWT authentication |
+| Databases | PostgreSQL |
+| Cloud and DevOps | Docker · Docker Compose · GitHub Actions (CI and scheduled jobs) |
+| AI and data | LLM integration with schema validation and fallbacks · PDF text extraction · rule-based NLP and scoring |
+| Testing and tools | pytest · Jest · Supertest · Git · ESLint |
+
+## Links
+
+[Portfolio](https://jass-pvt.github.io/jr-portfolio/) · [LinkedIn](https://www.linkedin.com/in/jaswanthrathore/) · [LeetCode](https://leetcode.com/u/JaswanthRathore/) · [GeeksforGeeks](https://www.geeksforgeeks.org/profile/jaswanthrathore) · [HackerRank](https://www.hackerrank.com/profile/rathoresjaswanth) · [Google Skills](https://www.skills.google/public_profiles/def4bf30-fead-4bf0-81b4-d1c68bcbb7bc)
+
+<br>
 
 <div align="center">
-
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-jass--pvt.github.io-a855f7?style=for-the-badge&logoColor=white)](https://jass-pvt.github.io/jr-portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jaswanthrathore-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaswanthrathore/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-JaswanthRathore-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/JaswanthRathore/)
-[![HackerRank](https://img.shields.io/badge/HackerRank-rathoresjaswanth-00C853?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/rathoresjaswanth)
-
+  <img src="assets/jaswanth-footer.svg" alt="Jaswanth Rathore, Jass-pvt" width="100%">
 </div>
-
-<br/>
-
----
-
-## 👨‍💻 About Me
-
-<table>
-<tr>
-<td width="55%" valign="top">
-
-```python
-class JaswanthRathore:
-
-    def __init__(self):
-        self.name       = "Jaswanth Rathore "
-        self.role       = "CS Undergraduate "
-        self.location   = "Chennai, India 🇮🇳"
-       
-
-    @property
-    def skills(self):
-        return {
-            "languages" : ["Python 🐍", "R", "JavaScript", "HTML/CSS"],
-            "ml"        : ["Scikit-learn", "NumPy", "Pandas", "NLTK"],
-            "cloud"     : ["AWS ☁️", "Google Cloud", "Oracle OCI"],
-            "security"  : ["IAM", "Log Analysis", "WHOIS", "SSL/TLS"],
-            "tools"     : ["Git", "VS Code", "Jupyter", "Streamlit"],
-            "databases" : ["MongoDB", "MySQL", "Firebase"],
-        }
-
-    def current_focus(self):
-        return [
-            "🔭 Building Full-Stack + IoT Projects",
-            "📖 Sharpening DSA & System Design",
-            "🛡️ Deepening Cybersecurity Knowledge",
-            "☁️ Exploring AWS & GCP Services",
-        ]
-```
-
-</td>
-<td width="45%" align="center" valign="top">
-
-<img src="https://img.freepik.com/premium-photo/hacker-girl-working-his-computer-with-multiple-monitors-screen-anime-pixel-art-style-geek-nerd_1070346-316.jpg" width="280" style="border-radius:16px;" alt="Coding"/>
-
-<br/><br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Jass-pvt&label=Profile+Views&color=a855f7&style=flat-square)
-![GitHub Followers](https://img.shields.io/github/followers/Jass-pvt?label=Followers&style=flat-square&color=a855f7)
-
-</td>
-</tr>
-</table>
-
----
-
-## ⚡ Favourite Tech
-
-<div align="center">
-
-> Tools, languages, and other things I like to work with.
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=py" width="48" height="48" alt="Python"/>
-      <br>Python
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript"/>
-      <br>JavaScript
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript"/>
-      <br>TypeScript
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C"/>
-      <br>C Lang
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=r" width="48" height="48" alt="R"/>
-      <br>R Lang
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=bash" width="48" height="48" alt="Bash"/>
-      <br>Bash
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=matlab" width="48" height="48" alt="MATLAB"/>
-      <br>MATLAB
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5"/>
-      <br>HTML5
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS3"/>
-      <br>CSS3
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React"/>
-      <br>React JS
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js"/>
-      <br>Next JS
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js"/>
-      <br>Node JS
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express"/>
-      <br>Express
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI"/>
-      <br>FastAPI
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=django" width="48" height="48" alt="Django"/>
-      <br>Django
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="TailwindCSS"/>
-      <br>TailWind
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=bootstrap" width="48" height="48" alt="Bootstrap"/>
-      <br>Bootstrap
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=materialui" width="48" height="48" alt="Material UI"/>
-      <br>Material UI
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL"/>
-      <br>PostgreSQL
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB"/>
-      <br>MongoDB
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL"/>
-      <br>MySQL
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase"/>
-      <br>Firebase
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=graphql" width="48" height="48" alt="GraphQL"/>
-      <br>GraphQL
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=workers" width="48" height="48" alt="LangGraph"/>
-      <br>LangGraph
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow"/>
-      <br>TensorFlow
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" alt="PyTorch"/>
-      <br>PyTorch
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=sklearn" width="48" height="48" alt="Scikit-learn"/>
-      <br>Scikit-Learn
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS"/>
-      <br>AWS
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=gcp" width="48" height="48" alt="Google Cloud"/>
-      <br>G Cloud
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker"/>
-      <br>Docker
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=kubernetes" width="48" height="48" alt="Kubernetes"/>
-      <br>Kubernetes
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=terraform" width="48" height="48" alt="Terraform"/>
-      <br>Terraform
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux"/>
-      <br>Linux
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git"/>
-      <br>Git
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=electron" width="48" height="48" alt="Electron"/>
-      <br>Electron
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=figma" width="48" height="48" alt="Figma"/>
-      <br>Figma
-    </td>
-  </tr>
-</table>
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Jass-pvt&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=6C63FF&text_color=c9d1d9&show=reviews,prs_merged,prs_merged_percentage" height="180"/>
-&nbsp;&nbsp; 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jass-pvt&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&layout=compact&langs_count=8" height="180"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Jass-pvt&theme=tokyonight&hide_border=true&background=0D1117&ring=a855f7&fire=c084fc&currStreakLabel=a855f7&sideLabels=8b87aa&currStreakNum=ffffff&sideNums=ffffff" height="160"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jass-pvt&theme=tokyo-night&area=true&hide_border=true&bg_color=0d1117&color=a855f7&line=7c3aed&point=c084fc" width="95%"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jass-pvt&theme=tokyonight" width="95%"/>
-
-</div>
-
----
-
-## 🏆 GitHub Grade
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Jass-pvt&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=6C63FF&text_color=c9d1d9&include_all_commits=true&count_private=true&rank_icon=percentile&show=reviews,prs_merged,prs_merged_percentage" height="160"/>
-
-</div>
-
----
-
-## 🌐 Open Source Contributions
-
-```
-📦 Elite Coders — Winter of Code 2025
-   └─ Community-driven open-source · Pull requests · Mentorship collaboration
-
-🌍 Open Source Connect Global — 2025
-   └─ Bug fixes · Feature improvements · Global developer collaboration
-```
-
----
- 
-## 📫 Connect With Me
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/jaswanthrathore/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;
-<a href="mailto:rathoresjaswanth@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-Mail%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://jass-pvt.github.io/jr-portfolio/">
-  <img src="https://img.shields.io/badge/Portfolio-Visit-a855f7?style=for-the-badge&logo=firefoxbrowser&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://leetcode.com/u/JaswanthRathore/">
-  <img src="https://img.shields.io/badge/LeetCode-Solve-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-</a>
-&nbsp;
-<a href="https://www.hackerrank.com/profile/rathoresjaswanth">
-  <img src="https://img.shields.io/badge/HackerRank-Code-00C853?style=for-the-badge&logo=hackerrank&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://www.skills.google/public_profiles/def4bf30-fead-4bf0-81b4-d1c68bcbb7bc">
-  <img src="https://img.shields.io/badge/Google%20Skills-View-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-> *"Code is not just syntax — it's the language I use to build solutions that matter."*
-> — **Jaswanth Rathore .S**
-
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:a855f7,100:7c3aed&height=120&section=footer&animation=fadeIn" width="100%"/>
