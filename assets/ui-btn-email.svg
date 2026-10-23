@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" width="300" height="64" role="img" aria-label="Email — rathoresjaswanth@gmail.com"><title>Email — rathoresjaswanth@gmail.com</title>
+<defs>
+  <linearGradient id="acc" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0" stop-color="#9b1c3f"/><stop offset=".55" stop-color="#a855f7"/><stop offset="1" stop-color="#d4af37"/>
+  </linearGradient>
+  <linearGradient id="bgp" x1="0" x2="0" y1="0" y2="1">
+    <stop offset="0" stop-color="#171220"/><stop offset="1" stop-color="#0d0a13"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#f0d98a"/><stop offset="1" stop-color="#d4af37"/>
+  </linearGradient>
+  <linearGradient id="shim" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0" cy=".5" r="1">
+    <stop offset="0" stop-color="#9b1c3f" stop-opacity=".42"/><stop offset="1" stop-color="#9b1c3f" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2" cx="1" cy="0" r="1">
+    <stop offset="0" stop-color="#a855f7" stop-opacity=".22"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r="1" fill="#ffffff" opacity=".07"/>
+  </pattern>
+</defs><rect x=".5" y=".5" width="299" height="63" rx="32" fill="#0b0810" stroke="#d4af37" stroke-opacity="0.7"/><circle cx="34" cy="32" r="22" fill="url(#acc)" fill-opacity="0.9" stroke="#2b2335"/><g transform="translate(22,20) scale(1.000)"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" fill="#fff"/></g><text x="70" y="30" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#ece8f2">Email</text><text x="70" y="48" font-family="'SF Mono','Fira Code',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8d879a">rathoresjaswanth@gmail.com</text><path d="M258 40 L274 24 M265 24 H274 V33" fill="none" stroke="#d4af37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
