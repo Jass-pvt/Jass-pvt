@@ -1,24 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" width="300" height="64" role="img" aria-label="HackerRank — Coding practice"><title>HackerRank — Coding practice</title>
 <defs>
   <linearGradient id="acc" x1="0" x2="1" y1="0" y2="0">
-    <stop offset="0" stop-color="#6d28d9"/><stop offset=".55" stop-color="#a855f7"/><stop offset="1" stop-color="#c084fc"/>
+    <stop offset="0" stop-color="#4c1d95"/><stop offset=".5" stop-color="#a855f7"/><stop offset="1" stop-color="#d4af37"/>
   </linearGradient>
-  <linearGradient id="bgp" x1="0" x2="0" y1="0" y2="1">
-    <stop offset="0" stop-color="#1b1033"/><stop offset="1" stop-color="#0b0716"/>
+  <linearGradient id="accv" x1="0" x2="0" y1="0" y2="1">
+    <stop offset="0" stop-color="#d4af37"/><stop offset="1" stop-color="#a855f7"/>
+  </linearGradient>
+  <linearGradient id="bgp" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#0b0911"/><stop offset="1" stop-color="#1c1236"/>
   </linearGradient>
   <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
-    <stop offset="0" stop-color="#e9d5ff"/><stop offset="1" stop-color="#c084fc"/>
+    <stop offset="0" stop-color="#f3dd94"/><stop offset="1" stop-color="#d4af37"/>
   </linearGradient>
   <linearGradient id="shim" x1="0" x2="1" y1="0" y2="0">
     <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
   </linearGradient>
   <radialGradient id="glow" cx="0" cy=".5" r="1">
-    <stop offset="0" stop-color="#6d28d9" stop-opacity=".42"/><stop offset="1" stop-color="#6d28d9" stop-opacity="0"/>
+    <stop offset="0" stop-color="#a855f7" stop-opacity=".30"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="glow2" cx="1" cy="0" r="1">
-    <stop offset="0" stop-color="#a855f7" stop-opacity=".22"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    <stop offset="0" stop-color="#d4af37" stop-opacity=".10"/><stop offset="1" stop-color="#d4af37" stop-opacity="0"/>
   </radialGradient>
   <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
-    <circle cx="1.5" cy="1.5" r="1" fill="#ffffff" opacity=".07"/>
+    <circle cx="1.5" cy="1.5" r="1" fill="#ffffff" opacity=".06"/>
   </pattern>
-</defs><rect x=".5" y=".5" width="299" height="63" rx="32" fill="#09060f" stroke="#2f2150" stroke-opacity="1"/><circle cx="34" cy="32" r="22" fill="#190f2b" fill-opacity="1" stroke="#2f2150"/><g transform="translate(22,20) scale(1.000)"><path d="M0 0v24h24V0zm9.95 8.002h1.805c.061 0 .111.05.111.111v7.767c0 .061-.05.111-.11.111H9.95c-.061 0-.111-.05-.111-.11v-2.87H7.894v2.87c0 .06-.05.11-.11.11H5.976a.11.11 0 01-.11-.11V8.112c0-.06.05-.11.11-.11h1.806c.061 0 .11.05.11.11v2.869H9.84v-2.87c0-.06.05-.11.11-.11zm2.999 0h5.778c.061 0 .111.05.111.11v7.767a.11.11 0 01-.11.112h-5.78a.11.11 0 01-.11-.11V8.111c0-.06.05-.11.11-.11z" fill="#c084fc"/></g><text x="70" y="30" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#f3eefc">HackerRank</text><text x="70" y="48" font-family="'SF Mono','Fira Code',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#9a8fb5">Coding practice</text><path d="M258 40 L274 24 M265 24 H274 V33" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</defs><rect x=".5" y=".5" width="299" height="63" rx="32" fill="#0a0810" stroke="#a855f7" stroke-opacity=".75"/><circle cx="34" cy="32" r="22" fill="#171126" stroke="#35294f"/><g transform="translate(22,20) scale(1.000)"><path d="M0 0v24h24V0zm9.95 8.002h1.805c.061 0 .111.05.111.111v7.767c0 .061-.05.111-.11.111H9.95c-.061 0-.111-.05-.111-.11v-2.87H7.894v2.87c0 .06-.05.11-.11.11H5.976a.11.11 0 01-.11-.11V8.112c0-.06.05-.11.11-.11h1.806c.061 0 .11.05.11.11v2.869H9.84v-2.87c0-.06.05-.11.11-.11zm2.999 0h5.778c.061 0 .111.05.111.11v7.767a.11.11 0 01-.11.112h-5.78a.11.11 0 01-.11-.11V8.111c0-.06.05-.11.11-.11z" fill="#d4af37"/></g><text x="70" y="30" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#f6f3fc">HackerRank</text><text x="70" y="49" font-family="'SF Mono','Fira Code',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" fill="#dad4ea">Coding practice</text><path d="M258 40 L274 24 M265 24 H274 V33" fill="none" stroke="#d4af37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
