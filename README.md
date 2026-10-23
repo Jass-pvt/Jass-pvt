@@ -24,7 +24,7 @@
 
 <br>
 
-<div align="center"><img src="assets/ui-sec-about.svg" alt="01 — About" width="100%"></div>
+<div align="center"><img src="assets/ui-sec-about.svg" alt="About" width="100%"></div>
 
 <br>
 
@@ -89,7 +89,7 @@ class JaswanthRathore:
     <td width="40%" align="center" valign="middle">
       <img src="https://img.freepik.com/premium-photo/hacker-girl-working-his-computer-with-multiple-monitors-screen-anime-pixel-art-style-geek-nerd_1070346-316.jpg" width="100%" alt="Pixel-art coding setup"/>
       <br><br>
-      <img src="https://komarev.com/ghpvc/?username=Jass-pvt&label=Profile%20Views&color=800020&labelColor=0d1117&style=flat-square" alt="Profile views"/>
+      <img src="https://komarev.com/ghpvc/?username=Jass-pvt&label=Profile%20Views&color=7c3aed&labelColor=0d1117&style=flat-square" alt="Profile views"/>
       <img src="https://img.shields.io/github/followers/Jass-pvt?label=Followers&style=flat-square&color=a855f7&labelColor=0d1117" alt="GitHub followers"/>
     </td>
   </tr>
@@ -97,7 +97,7 @@ class JaswanthRathore:
 
 <br>
 
-<div align="center"><img src="assets/ui-sec-arsenal.svg" alt="02 — Technical Arsenal" width="100%"></div>
+<div align="center"><img src="assets/ui-sec-arsenal.svg" alt="Technical Arsenal" width="100%"></div>
 
 <br>
 
@@ -107,7 +107,7 @@ class JaswanthRathore:
 
 <br>
 
-<div align="center"><img src="assets/ui-sec-projects.svg" alt="03 — Featured Projects" width="100%"></div>
+<div align="center"><img src="assets/ui-sec-projects.svg" alt="Featured Projects" width="100%"></div>
 
 <br>
 
@@ -186,34 +186,52 @@ Python tool that scores a URL's safety with layered checks: phishing heuristics,
 
 <br>
 
-<div align="center"><img src="assets/ui-sec-analytics.svg" alt="04 — GitHub Analytics" width="100%"></div>
+<div align="center"><img src="assets/ui-sec-analytics.svg" alt="GitHub Analytics" width="100%"></div>
 
 <br>
+
+<!-- Widgets are third-party services. If one stops loading, delete or swap just that <img>. -->
 
 <table align="center">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=Jass-pvt&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=d4af37&icon_color=a855f7&text_color=c9d1d9&include_all_commits=true" width="100%" alt="GitHub statistics"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=Jass-pvt&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c084fc&icon_color=a855f7&text_color=c9d1d9&include_all_commits=true" width="100%" alt="GitHub statistics"/>
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jass-pvt&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=d4af37&text_color=c9d1d9&layout=compact&langs_count=8" width="100%" alt="Most-used languages"/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jass-pvt&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c084fc&text_color=c9d1d9&layout=compact&langs_count=8" width="100%" alt="Most-used languages"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Jass-pvt&theme=tokyonight" width="100%" alt="Repositories per language"/>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Jass-pvt&theme=tokyonight" width="100%" alt="Most-committed language"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jass-pvt&theme=tokyonight" width="100%" alt="Profile details"/>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com?user=Jass-pvt&theme=tokyonight&hide_border=true&background=0D1117&ring=a855f7&fire=c084fc&currStreakLabel=a855f7" width="100%" alt="GitHub contribution streak"/>
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com?user=Jass-pvt&theme=tokyonight&hide_border=true&background=0D1117&ring=a855f7&fire=d4af37&currStreakLabel=a855f7" width="75%" alt="GitHub contribution streak"/>
+      <img src="https://github-profile-trophy.vercel.app/?username=Jass-pvt&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=12" width="100%" alt="GitHub trophies"/>
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jass-pvt&theme=tokyo-night&area=true&hide_border=true&bg_color=0d1117&color=a855f7&line=7c3aed&point=d4af37" width="100%" alt="GitHub contribution activity"/>
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jass-pvt&theme=tokyo-night&area=true&hide_border=true&bg_color=0d1117&color=a855f7&line=7c3aed&point=c084fc" width="100%" alt="GitHub contribution activity"/>
     </td>
   </tr>
 </table>
 
 <br>
 
-<div align="center"><img src="assets/ui-sec-opensource.svg" alt="05 — Open Source" width="100%"></div>
+<div align="center"><img src="assets/ui-sec-opensource.svg" alt="Open Source" width="100%"></div>
 
 <br>
 
@@ -230,7 +248,7 @@ Python tool that scores a URL's safety with layered checks: phishing heuristics,
 
 <br>
 
-<div align="center"><img src="assets/ui-sec-connect.svg" alt="06 — Connect" width="100%"></div>
+<div align="center"><img src="assets/ui-sec-connect.svg" alt="Connect" width="100%"></div>
 
 <br>
 
