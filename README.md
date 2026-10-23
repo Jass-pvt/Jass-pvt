@@ -29,14 +29,11 @@
 <br>
 
 <p align="center">
-  I'm a software engineer in Chennai who likes projects that cross layers:<br>
-  a FastAPI service, an ML model that explains its own verdicts,<br>
-  an ESP32 talking to a mobile app through the cloud.<br>
-  My work sits where full-stack engineering meets AI/ML, cloud, and security.
+I'm a Software Engineer focused on full-stack development, AI/ML, cloud computing, and DevOps. I enjoy building scalable applications, developing intelligent systems, and automating workflows to solve real-world problems through clean, efficient, and reliable code.
 </p>
 
 <div align="center">
-  <img src="assets/ui-glance.svg" alt="Role: Software Engineer. Base: Chennai, India. Strengths: Full-Stack, AI/ML, Cloud, Security. Learning: DSA, System Design, AWS, GCP, Security." width="100%">
+  <img src="assets/ui-glance.svg" alt="Role: Software Engineer.  Strengths: Full-Stack, AI/ML, Cloud, Security. Learning: DSA, System Design, AWS, GCP, Security." width="100%">
 </div>
 
 <br>
@@ -55,26 +52,14 @@ class JaswanthRathore:
 
     @property
     def skills(self):
-        return {
-            "languages": [
-                "Python 🐍", "R", "JavaScript", "HTML/CSS"
-            ],
-            "ml": [
-                "Scikit-learn", "NumPy", "Pandas", "NLTK"
-            ],
-            "cloud": [
-                "AWS ☁️", "Google Cloud", "Oracle OCI"
-            ],
-            "security": [
-                "IAM", "Log Analysis", "WHOIS", "SSL/TLS"
-            ],
-            "tools": [
-                "Git", "VS Code", "Jupyter", "Streamlit"
-            ],
-            "databases": [
-                "MongoDB", "MySQL", "Firebase"
-            ],
-        }
+    return {
+        "languages": ["Python 🐍", "JavaScript", "TypeScript", "HTML/CSS"],
+        "frontend": ["React", "Next.js", "Tailwind CSS"],
+        "backend_db": ["Node.js", "Express.js", "FastAPI", "PostgreSQL", "MongoDB", "MySQL"],
+        "ai_ml": ["Scikit-learn", "Pandas", "NumPy", "LLMs", "RAG", "LangGraph"],
+        "cloud_devops": ["AWS ☁️", "Docker", "Terraform", "GitHub Actions", "Linux"],
+        "tools": ["Git", "GitHub", "VS Code", "Jupyter", "Streamlit"]
+    }
 
     def current_focus(self):
         return [
