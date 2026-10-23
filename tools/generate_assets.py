@@ -82,44 +82,49 @@ def glyph(kind, x, y, size, color=GOLD):
         "log":    'M6 3h9l4 4v14H6z M15 3v4h4 M9 12h7 M9 15h7 M9 18h4',
         "globe":  'M12 3a9 9 0 100 18 9 9 0 000-18z M3 12h18 M12 3c3.2 3 3.2 15 0 18 M12 3c-3.2 3-3.2 15 0 18',
         "lock":   'M6 11h12v9H6z M8.5 11V8a3.5 3.5 0 017 0v3 M12 14.5v2.5',
+        "spark":  'M11 3l1.9 5.1L18 10l-5.1 1.9L11 17l-1.9-5.1L4 10l5.1-1.9z M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z',
+        "chat":   'M4 5h16v11H9l-5 4z M8 9.5h8 M8 12.5h5',
+        "rag":    'M5 3h9l4 4v5 M5 3v18h6 M8 9h6 M8 12h3 M13 17a3 3 0 106 0 3 3 0 10-6 0 M18.2 19.2L21 22',
+        "bot":    'M12 3v3 M6 8h12a2 2 0 012 2v7a2 2 0 01-2 2H6a2 2 0 01-2-2v-7a2 2 0 012-2z M9 13h.01 M15 13h.01 M9.5 16.5h5',
+        "graph":  'M4 6a2 2 0 104 0 2 2 0 10-4 0 M16 6a2 2 0 104 0 2 2 0 10-4 0 M10 18a2 2 0 104 0 2 2 0 10-4 0 M7.5 7.6L10.8 16.2 M16.5 7.6L13.2 16.2 M8 6h8',
+        "flow":   'M3 5h7v5H3z M14 5h7v5h-7z M8 14h8v5H8z M6.5 10v1.5a2 2 0 002 2H12 M17.5 10v1.5a2 2 0 01-2 2H12',
+        "boost":  'M4 20h16 M6 20v-5 M11 20v-9 M16 20v-13 M13 6l3-3 3 3',
+        "cicd":   'M4 12a8 8 0 0113.5-5.8L20 8.5 M20 4v4.5h-4.5 M20 12a8 8 0 01-13.5 5.8L4 15.5 M4 20v-4.5h4.5',
     }
     return (f'<g transform="translate({x},{y}) scale({size/24:.3f})" fill="none" stroke="{color}" stroke-width="1.7" '
             f'stroke-linecap="round" stroke-linejoin="round"><path d="{paths[kind]}"/></g>')
 
 # ═════════════════════════ DATA (edit me) ════════════════════════════════
 SECTIONS = [
-    ("about",      "About",             "~/about",     "who I am and what I build"),
-    ("arsenal",    "Technical Arsenal", "~/stack",     "tools I reach for, by layer"),
-    ("projects",   "Featured Projects", "~/projects",  "from my public repositories"),
-    ("analytics",  "GitHub Analytics",  "~/metrics",   "live activity dashboard"),
-    ("opensource", "Open Source",       "~/community", "programs I've contributed through"),
-    ("connect",    "Connect",           "~/contact",   "let's talk engineering"),
+    ("about",     "About",             "~/about",    "who I am and how I work"),
+    ("arsenal",   "Technical Arsenal", "~/stack",    "my skills, by area"),
+    ("analytics", "GitHub Analytics",  "~/metrics",  "live activity dashboard"),
+    ("connect",   "Connect",           "~/contact",  "let's talk engineering"),
 ]
 FOCUS = ["building full-stack + IoT projects", "sharpening DSA & system design",
          "deepening cybersecurity knowledge", "exploring AWS & GCP services"]
 
-ARSENAL = [  # label, [(icon slug | glyph:<kind> | None, name)]
-    ("Languages",        [("python","Python"),("javascript","JavaScript"),("typescript","TypeScript"),("c","C"),
-                          ("r","R"),("gnubash","Bash"),("html5","HTML5"),("css3","CSS3")]),
-    ("Frontend",         [("react","React"),("nextdotjs","Next.js"),("tailwindcss","Tailwind"),("bootstrap","Bootstrap")]),
-    ("Backend & APIs",   [("nodedotjs","Node.js"),("express","Express"),("fastapi","FastAPI"),("django","Django"),("graphql","GraphQL")]),
-    ("Databases",        [("postgresql","PostgreSQL"),("mongodb","MongoDB"),("mysql","MySQL"),("firebase","Firebase")]),
-    ("AI / ML",          [("tensorflow","TensorFlow"),("pytorch","PyTorch"),("scikitlearn","Scikit-learn"),
-                          ("numpy","NumPy"),("pandas","Pandas"),(None,"NLTK")]),
-    ("Cloud",            [("amazonaws","AWS"),("googlecloud","Google Cloud"),("oracle","Oracle OCI")]),
-    ("DevOps",           [("docker","Docker"),("kubernetes","Kubernetes"),("terraform","Terraform"),("linux","Linux")]),
-    ("Tools",            [("git","Git"),("visualstudiocode","VS Code"),("jupyter","Jupyter"),("streamlit","Streamlit"),("figma","Figma")]),
-    ("Security",         [("glyph:shield","IAM"),("glyph:log","Log Analysis"),("glyph:globe","WHOIS"),("glyph:lock","SSL/TLS")]),
+ARSENAL = [  # category, [(icon slug | glyph:<kind> | None, name)]
+    ("Languages & Full-Stack Development", [
+        ("python","Python"),("javascript","JavaScript"),("typescript","TypeScript"),("c","C"),("gnubash","Bash"),
+        ("html5","HTML5"),("css3","CSS3"),("react","React"),("nextdotjs","Next.js"),("tailwindcss","Tailwind CSS"),
+        ("nodedotjs","Node.js"),("express","Express.js"),("fastapi","FastAPI"),
+        ("postgresql","PostgreSQL"),("mongodb","MongoDB"),("mysql","MySQL")]),
+    ("AI/ML & Agentic AI", [
+        ("tensorflow","TensorFlow"),("pytorch","PyTorch"),("scikitlearn","Scikit-learn"),("numpy","NumPy"),
+        ("pandas","Pandas"),("glyph:boost","XGBoost"),("glyph:spark","Generative AI"),("glyph:chat","LLMs"),
+        ("glyph:rag","RAG"),("glyph:bot","Agentic AI"),("glyph:bot","AI Agents"),("glyph:graph","LangGraph"),
+        ("glyph:flow","LLM Workflows")]),
+    ("Cloud, DevOps & Infrastructure", [
+        ("amazonaws","AWS"),("googlecloud","Google Cloud"),("oracle","Oracle Cloud (OCI)"),("docker","Docker"),
+        ("kubernetes","Kubernetes"),("terraform","Terraform"),("linux","Linux"),("githubactions","GitHub Actions"),
+        ("glyph:cicd","CI/CD")]),
+    ("Tools, Collaboration & Security", [
+        ("git","Git"),("github","GitHub"),("jira","Jira"),("confluence","Confluence"),("visualstudiocode","VS Code"),
+        ("jupyter","Jupyter"),("streamlit","Streamlit"),("figma","Figma"),("glyph:shield","IAM"),
+        ("glyph:log","Log Analysis"),("glyph:globe","WHOIS"),("glyph:lock","SSL/TLS")]),
 ]
 
-PROJECTS = [  # file key, title, tag, flagship?
-    ("phishguard", "PhishGuard AI",           "SECURITY · ML · FULL-STACK", True),
-    ("talentlens", "TalentLens AI",           "AI · AUTOMATION",            False),
-    ("smartgarden","Smart Garden IoT System", "IOT · MOBILE · CLOUD",       False),
-    ("urlsafety",  "URL Safety Checker",      "SECURITY · TOOLING",         False),
-]
-PROGRAMS = [("elite", "2025", "Elite Coders", "Winter of Code 2025"),
-            ("oscg",  "2025", "Open Source Connect Global", "Open-source contribution")]
 BUTTONS = [  # key, label, sub, icon, primary?
     ("linkedin",  "LinkedIn",      "Let's connect",              "linkedin",   True),
     ("email",     "Email",         "rathoresjaswanth@gmail.com", "gmail",      True),
@@ -128,8 +133,6 @@ BUTTONS = [  # key, label, sub, icon, primary?
     ("hackerrank","HackerRank",    "Coding practice",            "hackerrank", False),
     ("skills",    "Google Skills", "Cloud learning",             "google",     False),
 ]
-QUOTE = ["“Code is not just syntax — it's the language I use",
-         "to build solutions that matter.”"]
 # ═════════════════════════════════════════════════════════════════════════
 
 # 1 ─ section banners
@@ -164,7 +167,7 @@ save("ui-terminal.svg", svg(W, H, body, "Currently: " + "; ".join(FOCUS)))
 
 # 3 ─ at-a-glance tiles
 tiles = [("ROLE", ["Software Engineer"]), ("BASE", ["Chennai, India"]),
-         ("STRENGTHS", ["Full-Stack · AI/ML", "Cloud · Security"]), ("LEARNING", ["DSA · System Design", "AWS · GCP · Security"])]
+         ("STRENGTHS", ["Full-Stack · AI/ML", "Agentic AI · Cloud"]), ("LEARNING", ["DSA · System Design", "AWS · GCP · Security"])]
 W, H, g = 900, 112, 16
 widths = [190, 170, 226, 264]
 body, x = "", 0
@@ -176,76 +179,44 @@ for (lab, lines), tw in zip(tiles, widths):
     for j, ln in enumerate(lines):
         body += f'<text x="{x+18:.1f}" y="{74+j*24}" font-family="{SERIF}" font-size="16" font-weight="700" fill="{TEXT}">{esc(ln)}</text>'
     x += tw + g
-save("ui-glance.svg", svg(W, H, body, "Role: Software Engineer. Base: Chennai, India. Strengths: Full-Stack, AI/ML, Cloud, Security. Learning: DSA, System Design, AWS, GCP, Security."))
+save("ui-glance.svg", svg(W, H, body, "Role: Software Engineer. Base: Chennai, India. Strengths: Full-Stack, AI/ML, Agentic AI, Cloud. Learning: DSA, System Design, AWS, GCP, Security."))
 
-# 4 ─ arsenal: ONE compact board, a row per category with inline pills
-W, LABEL_X, PX0, PX1 = 720, 26, 172, 698
-PH, GAP, ROWPAD = 34, 8, 13
-def pill_w(label): return 48 + len(label) * 7.3
+# 4 ─ arsenal: one compact board, small icon pills, category header above each group
+W, PAD = 640, 22
+PH, GAP, ICON = 28, 7, 14
+HEAD_H, TOP_PAD, BOT_PAD = 30, 16, 16
+def pill_w(label): return 40 + len(label) * 6.9
 def flow(items):
-    rows, x = [[]], PX0
+    rows, x = [[]], PAD
     for it in items:
         w = pill_w(it[1])
-        if x + w > PX1 and rows[-1]:
-            rows.append([]); x = PX0
+        if x + w > W - PAD and rows[-1]:
+            rows.append([]); x = PAD
         rows[-1].append((it, x, w)); x += w + GAP
     return rows
 blocks, total = [], 0
 for label, items in ARSENAL:
     rows = flow(items)
-    h = len(rows) * PH + (len(rows) - 1) * GAP + 2 * ROWPAD
+    h = TOP_PAD + HEAD_H + len(rows) * PH + (len(rows) - 1) * GAP + BOT_PAD
     blocks.append((label, rows, total, h)); total += h
 H = total
 body = card(W, H, 18)
 for n, (label, rows, top, h) in enumerate(blocks):
     if n:
         body += f'<line x1="18" x2="{W-18}" y1="{top}" y2="{top}" stroke="{LINE}" stroke-width="1"/>'
-    body += f'<rect x="{LABEL_X-10}" y="{top+ROWPAD+9}" width="4" height="16" rx="2" fill="url(#accv)"/>'
-    body += f'<text x="{LABEL_X+2}" y="{top+ROWPAD+22}" font-family="{MONO}" font-size="11.5" font-weight="700" letter-spacing="1" fill="{GOLD2}">{esc(label.upper())}</text>'
+    body += f'<rect x="{PAD}" y="{top+TOP_PAD+2}" width="4" height="15" rx="2" fill="url(#accv)"/>'
+    body += f'<text x="{PAD+13}" y="{top+TOP_PAD+14}" font-family="{MONO}" font-size="12" font-weight="700" letter-spacing="1" fill="{GOLD2}">{esc(label.upper())}</text>'
     for r, row in enumerate(rows):
-        py = top + ROWPAD + r * (PH + GAP)
+        py = top + TOP_PAD + HEAD_H + r * (PH + GAP)
         for (slug, name), px, pw in row:
-            body += f'<rect x="{px:.1f}" y="{py}" width="{pw:.1f}" height="{PH}" rx="17" fill="{TILE}" stroke="{LINE}"/>'
+            body += f'<rect x="{px:.1f}" y="{py}" width="{pw:.1f}" height="{PH}" rx="14" fill="{TILE}" stroke="{LINE}"/>'
             if slug and slug.startswith("glyph:"):
-                body += glyph(slug[6:], px + 11, py + 8, 18)
+                body += glyph(slug[6:], px + 9, py + 7, ICON)
             elif slug:
-                body += icon(slug, px + 11, py + 8, 18)
-            else:
-                body += f'<text x="{px+20}" y="{py+23}" text-anchor="middle" font-family="{SERIF}" font-size="16" font-weight="700" fill="{GOLD}">N</text>'
-            body += f'<text x="{px+36:.1f}" y="{py+22}" font-family="{SANS}" font-size="12.5" font-weight="600" fill="{TEXT}">{esc(name)}</text>'
+                body += icon(slug, px + 9, py + 7, ICON)
+            body += f'<text x="{px+29:.1f}" y="{py+18.5}" font-family="{SANS}" font-size="11.5" font-weight="600" fill="{TEXT}">{esc(name)}</text>'
 alt = "Technical arsenal. " + "; ".join(f"{n}: {', '.join(l for _, l in it)}" for n, it in ARSENAL)
 save("ui-arsenal.svg", svg(W, H, body, alt))
-
-# 5 ─ project banners (title bar of a project card; the description sits in the SAME card in the README)
-for key, title, tag, flag in PROJECTS:
-    W, H = 900, (118 if flag else 104)
-    stroke, sw = ("url(#acc)", 2) if flag else (LINE, 1)
-    body = card(W, H, 14, stroke, sw) + f'<rect width="{W}" height="{H}" rx="14" fill="url(#glow)"/><rect width="{W}" height="{H}" rx="14" fill="url(#glow2)"/>'
-    pw = len(tag) * 9.6 + 34
-    body += (f'<rect x="28" y="20" width="{pw:.0f}" height="26" rx="13" fill="{GOLD}" fill-opacity=".12" stroke="{GOLD}" stroke-opacity=".7"/>'
-             f'<text x="44" y="37.5" font-family="{MONO}" font-size="12.5" font-weight="700" letter-spacing="1.6" fill="{GOLD2}">{esc(tag)}</text>')
-    if flag:
-        fx = 28 + pw + 10
-        body += (f'<rect x="{fx:.0f}" y="20" width="122" height="26" rx="13" fill="{VIOLET}" stroke="{PURPLE}"/>'
-                 f'<text x="{fx+14:.0f}" y="37.5" font-family="{MONO}" font-size="12.5" font-weight="700" letter-spacing="1.6" fill="#fff">★ FLAGSHIP</text>')
-    body += f'<text x="28" y="{H-24}" font-family="{SERIF}" font-size="{38 if flag else 32}" font-weight="700" fill="{TEXT}">{esc(title)}</text>'
-    cx, cy = W - 50, H / 2
-    body += (f'<circle cx="{cx}" cy="{cy}" r="24" fill="{BG}" stroke="url(#acc)" stroke-width="2"/>'
-             f'<path d="M{cx-8} {cy+8} L{cx+8} {cy-8} M{cx-2} {cy-8} H{cx+8} V{cy+2}" fill="none" stroke="{GOLD}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>')
-    body += shimmer_line(W, H - 8, f"p-{key}")
-    save(f"ui-proj-{key}.svg", svg(W, H, body, f"{title} — {tag.title()}"))
-
-# 6 ─ open-source rows
-for key, year, title, sub in PROGRAMS:
-    W, H = 900, 88
-    body = card(W, H) + f'<rect width="{W}" height="{H}" rx="16" fill="url(#glow)"/>'
-    body += f'<text x="30" y="62" font-family="{SERIF}" font-size="44" font-weight="700" fill="none" stroke="url(#gold)" stroke-width="1.5">{year}</text>'
-    body += f'<rect x="156" y="20" width="1.5" height="48" fill="{GOLD}" opacity=".5"/>'
-    body += f'<text x="178" y="47" font-family="{SERIF}" font-size="28" font-weight="700" fill="{TEXT}">{esc(title)}</text>'
-    body += f'<text x="178" y="70" font-family="{MONO}" font-size="14" fill="{ASH2}">{esc(sub)}</text>'
-    body += (f'<rect x="{W-196}" y="31" width="166" height="26" rx="13" fill="{GOLD}" fill-opacity=".10" stroke="{GOLD}" stroke-opacity=".7"/>'
-             f'<text x="{W-113}" y="48.5" text-anchor="middle" font-family="{MONO}" font-size="12.5" font-weight="700" letter-spacing="1.8" fill="{GOLD2}">OPEN SOURCE</text>')
-    save(f"ui-os-{key}.svg", svg(W, H, body, f"{title} — {sub} ({year})"))
 
 # 7 ─ contact buttons
 for key, label, sub, ico, primary in BUTTONS:
@@ -257,13 +228,3 @@ for key, label, sub, ico, primary in BUTTONS:
              f'<text x="70" y="49" font-family="{MONO}" font-size="11.5" fill="{ASH2}">{esc(sub)}</text>'
              f'<path d="M{W-42} 40 L{W-26} 24 M{W-35} 24 H{W-26} V33" fill="none" stroke="{GOLD}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>')
     save(f"ui-btn-{key}.svg", svg(W, H, body, f"{label} — {sub}"))
-
-# 8 ─ closing quote
-W, H = 900, 150
-body = card(W, H, 18) + f'<rect width="{W}" height="{H}" rx="18" fill="url(#glow)"/><rect width="{W}" height="{H}" rx="18" fill="url(#glow2)"/>'
-body += f'<text x="34" y="112" font-family="{SERIF}" font-size="150" font-weight="700" fill="url(#gold)" opacity=".30">“</text>'
-for i, ln in enumerate(QUOTE):
-    body += f'<text x="450" y="{62+i*34}" text-anchor="middle" font-family="{SERIF}" font-size="25" font-style="italic" fill="{TEXT}">{esc(ln)}</text>'
-body += f'<text x="450" y="128" text-anchor="middle" font-family="{MONO}" font-size="13" font-weight="700" letter-spacing="2.5" fill="{GOLD}">— JASWANTH RATHORE .S</text>'
-body += shimmer_line(W, H - 10, "c-quote")
-save("ui-quote.svg", svg(W, H, body, " ".join(QUOTE) + " — Jaswanth Rathore .S"))
