@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/jaswanth-hero.svg" alt="Jaswanth Rathore — Software Engineer, Full-Stack Developer, DevOps and Cloud Engineer, AI/ML Engineer" width="100%">
 </div>
-
+ 
 <br>
 
 <div align="center">
