@@ -3,7 +3,7 @@
 </div>
  
 <br>
-
+ 
 <div align="center">
   <img src="assets/ui-terminal.svg" alt="Currently: building full-stack and IoT projects; sharpening DSA and system design; deepening cybersecurity knowledge; exploring AWS and GCP services" width="100%">
 </div>
